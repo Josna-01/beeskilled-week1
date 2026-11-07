@@ -10,9 +10,9 @@
 - [Technologies Used](#technologies-used)
 - [Repository Folder Structure](#repository-folder-structure)
 - [Assignments Overview & Features](#assignments-overview--features)
-  - [Task 1: Developer Portfolio (`/portfolio`)](#task-1-developer-portfolio-portfolio)
-  - [Task 2: React Components Practice (`/react-components-practice`)](#task-2-react-components-practice-react-components-practice)
-  - [Task 3: React Blog UI – The Daily Journal (`/react-blog-ui`)](#task-3-react-blog-ui--the-daily-journal-react-blog-ui)
+  - [Task 1: Developer Portfolio](#task-1-developer-portfolio)
+  - [Task 2: React Components Practice](#task-2-react-components-practice)
+  - [Task 3: React Blog UI – The Daily Journal](#task-3-react-blog-ui--the-daily-journal)
 - [Installation & Execution Instructions](#installation--execution-instructions)
 - [Security & Submission Hygiene](#security--submission-hygiene)
 - [Live Deployments](#live-deployments)
@@ -53,7 +53,8 @@ beeskilled-week1/
 │   ├── AMISHA.pdf               # Downloadable curriculum vitae
 │   ├── index.html               # Entry HTML template
 │   ├── package.json             # Task 1 dependencies & scripts
-│   └── package-lock.json
+│   ├── package-lock.json
+│   └── README.md                # Task 1 in-depth documentation
 │
 ├── react-components-practice/   # Task 2: Reusable React Components & Student Dashboard
 │   ├── src/
@@ -101,7 +102,9 @@ beeskilled-week1/
 
 ## 🚀 Assignments Overview & Features
 
-### Task 1: Developer Portfolio (`/portfolio`)
+### Task 1: Developer Portfolio
+📁 **Location:** [`/portfolio`](./portfolio) | 📄 **Documentation:** [`portfolio/README.md`](./portfolio/README.md)
+
 A responsive, personal developer portfolio showcasing technical background, education, club leadership, and production projects.
 
 - **Key Features:**
@@ -113,7 +116,9 @@ A responsive, personal developer portfolio showcasing technical background, educ
 
 ---
 
-### Task 2: React Components Practice (`/react-components-practice`)
+### Task 2: React Components Practice
+📁 **Location:** [`/react-components-practice`](./react-components-practice) | 📄 **Documentation:** [`react-components-practice/README.md`](./react-components-practice/README.md)
+
 A modern **Student Dashboard (`EduPulse`)** built around 5 modular, reusable components demonstrating prop delegation, callback events, and reactive state management.
 
 - **Key Features & Components:**
@@ -126,7 +131,9 @@ A modern **Student Dashboard (`EduPulse`)** built around 5 modular, reusable com
 
 ---
 
-### Task 3: React Blog UI – The Daily Journal (`/react-blog-ui`)
+### Task 3: React Blog UI – The Daily Journal
+📁 **Location:** [`/react-blog-ui`](./react-blog-ui) | 📄 **Documentation:** [`react-blog-ui/README.md`](./react-blog-ui/README.md)
+
 A publication platform called **The Daily Journal** that pairs classic editorial aesthetics with localized JSON data retrieval and advanced client-side search/filtering.
 
 - **Key Features & Components:**
@@ -199,11 +206,11 @@ This repository follows industry-standard security and repository hygiene guidel
 
 ## 🌐 Live Deployments
 
-- **Developer Portfolio (Task 1):** *Self-hosted / Available on GitHub repository*
+- **Developer Portfolio (Task 1):** *Available in `/portfolio`*
 - **Student Dashboard (Task 2):** *Available in `/react-components-practice`*
 - **The Daily Journal (Task 3):** *Available in `/react-blog-ui`*
 
-*(Deployments can be instantly published to Vercel, Netlify, or GitHub Pages via the root project subdirectories).*
+*(Deployments can be published to Vercel, Netlify, or GitHub Pages via the root project subdirectories).*
 
 ---
 
