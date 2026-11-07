@@ -107,3 +107,4 @@ function BlogCard({ post, onReadArticle }) {
 }
 
 export default BlogCard;
+
