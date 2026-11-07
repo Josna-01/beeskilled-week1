@@ -1,69 +1,53 @@
-# BeeSkilled - Week 1: Developer Portfolio
+# BeeSkilled - Week 1 Assignments
 
-A responsive personal developer portfolio web application built with **React** and **Vite**, featuring an editorial scrapbook-inspired design, interactive project showcases, timeline history, and downloadable resume support.
-
----
-
-## 🚀 Tech Stack
-
-- **Frontend:** React 18 / 19, JavaScript (ES Modules)
-- **Styling:** Vanilla CSS with custom design system, fluid typography, and scroll reveal animations
-- **Build Tool:** Vite
+Repository for the **BeeSkilled Full-Stack Training Program – Week 1**.
 
 ---
 
-## 📁 Project Structure
+## 📂 Projects Directory
 
 ```text
 beeskilled-week1/
-├── portfolio/
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── images/          # Profile assets & media
-│   │   ├── main.jsx             # Main React application
-│   │   └── styles.css           # Styling and layout
-│   ├── AMISHA.pdf               # Downloadable resume
-│   ├── index.html               # Vite HTML entry point
-│   ├── package.json             # Dependencies and scripts
-│   └── package-lock.json
-├── .gitignore
-└── README.md
+├── portfolio/                   # Task 1: Personal Developer Portfolio
+├── react-components-practice/   # Task 2: Reusable React Components & Student Dashboard
+├── .gitignore                   # Global repository gitignore
+└── README.md                    # Root documentation index
 ```
 
 ---
 
-## 🛠️ Getting Started
+## 🌟 Task 1: Developer Portfolio (`/portfolio`)
 
-### Prerequisites
+A responsive personal developer portfolio web application built with **React** and **Vite**, featuring an editorial scrapbook-inspired aesthetic, interactive project showcases, timeline history, and downloadable resume support.
 
-Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
+### Run Task 1 Locally:
+```bash
+cd portfolio
+npm install
+npm run dev
+```
 
-### Installation & Setup
+---
 
-1. **Navigate to the portfolio directory:**
-   ```bash
-   cd portfolio
-   ```
+## 🎓 Task 2: React Components Practice (`/react-components-practice`)
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+A modern **Student Dashboard** designed to demonstrate component reusability, props contracts, callback events, component composition, and controlled state management using the `useState` hook.
 
-3. **Start the local development server:**
-   ```bash
-   npm run dev
-   ```
+### 5 Reusable Components:
+1. **`Header.jsx`**: Responsive navigation bar with mobile hamburger menu, brand logo, and active section routing.
+2. **`Footer.jsx`**: Semantic footer with copyright notices, quick links, and social navigation.
+3. **`Card.jsx`**: Course and achievement card rendered 3 times with unique content, progress bars, tags, and callback actions.
+4. **`Button.jsx`**: Configurable button supporting multiple variants (`primary`, `secondary`, `outline`, `success`, `danger`), sizes, and event handlers.
+5. **`Form.jsx`**: Controlled feedback and help desk inquiry form with real-time validation, error states, and clear-on-submit functionality.
 
-4. **Build for production:**
-   ```bash
-   npm run build
-   ```
+### Run Task 2 Locally:
+```bash
+cd react-components-practice
+npm install
+npm run dev
+```
 
-5. **Preview production build:**
-   ```bash
-   npm run preview
-   ```
+See [react-components-practice/README.md](./react-components-practice/README.md) for full architecture and technical documentation.
 
 ---
 
@@ -72,4 +56,3 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 **Amisha Josna Dsouza**  
 - **GitHub:** [@Josna-01](https://github.com/Josna-01)  
 - **LinkedIn:** [Amisha Josna Dsouza](https://www.linkedin.com/in/amisha-josna-dsouza)
-
