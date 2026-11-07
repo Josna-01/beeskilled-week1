@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  /* Editorial Palette */
+  --color-ink: #111418;
+  --color-ink-subtle: #4b5563;
+  --color-ink-muted: #6b7280;
+  --color-ink-faint: #9ca3af;
+
+  --color-paper: #faf8f5;
+  --color-paper-card: #ffffff;
+  --color-paper-alt: #f3efe9;
+  --color-border: #e8e3da;
+  --color-border-dark: #d5cdbf;
+
+  --color-accent-amber: #b45309;
+  --color-accent-amber-light: #fef3c7;
+  --color-accent-blue: #1e40af;
+  --color-accent-blue-light: #dbeafe;
+  --color-accent-emerald: #065f46;
+  --color-accent-emerald-light: #d1fae5;
+  --color-accent-rose: #9f1239;
+  --color-accent-rose-light: #ffe4e6;
+  --color-accent-purple: #581c87;
+  --color-accent-purple-light: #f3e8ff;
+
+  /* Typography */
+  --font-serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Elevation */
+  --shadow-editorial-sm: 0 1px 3px rgba(17, 20, 24, 0.04);
+  --shadow-editorial-md: 0 4px 12px rgba(17, 20, 24, 0.06);
+  --shadow-editorial-lg: 0 12px 28px rgba(17, 20, 24, 0.08);
+
+  /* Radius */
+  --radius-editorial: 6px;
+  --radius-pill: 9999px;
+
+  /* Transitions */
+  --trans-fast: 0.15s ease;
+  --trans-smooth: 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}

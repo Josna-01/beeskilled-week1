@@ -1,6 +1,6 @@
 # BeeSkilled - Week 1 Assignments
 
-Repository for the **BeeSkilled Full-Stack Training Program – Week 1**.
+Complete portfolio and React assignment submissions for the **BeeSkilled Full-Stack Training Program – Week 1**.
 
 ---
 
@@ -10,6 +10,7 @@ Repository for the **BeeSkilled Full-Stack Training Program – Week 1**.
 beeskilled-week1/
 ├── portfolio/                   # Task 1: Personal Developer Portfolio
 ├── react-components-practice/   # Task 2: Reusable React Components & Student Dashboard
+├── react-blog-ui/               # Task 3: Editorial React Blog Platform (The Daily Journal)
 ├── .gitignore                   # Global repository gitignore
 └── README.md                    # Root documentation index
 ```
@@ -48,6 +49,28 @@ npm run dev
 ```
 
 See [react-components-practice/README.md](./react-components-practice/README.md) for full architecture and technical documentation.
+
+---
+
+## 📰 Task 3: React Blog UI – The Daily Journal (`/react-blog-ui`)
+
+An editorial-style blog platform showcasing localized JSON data integration (`posts.json`), list rendering with `map()`, combined multi-criteria search (title, excerpt, author, tags) and category filtering, dynamic category count badges, an interactive article reader modal, and a controlled newsletter subscription form.
+
+### 5 Dedicated Reusable Components:
+1. **`Header.jsx`**: Classic editorial masthead with top meta bar, responsive navigation drawer, and issue counter.
+2. **`BlogCard.jsx`**: Reusable article card displaying cover imagery, category badges, author byline, reading time, tags, and read triggers.
+3. **`SearchBar.jsx`**: Controlled search bar with live filtering, result counters, and instant query reset.
+4. **`CategoryFilter.jsx`**: Category pill navigation with live post distribution counts.
+5. **`Footer.jsx`**: Multi-column editorial footer with quick topic filters and social links.
+
+### Run Task 3 Locally:
+```bash
+cd react-blog-ui
+npm install
+npm run dev
+```
+
+See [react-blog-ui/README.md](./react-blog-ui/README.md) for full architecture and technical documentation.
 
 ---
 
